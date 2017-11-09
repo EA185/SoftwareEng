@@ -32,7 +32,7 @@ namespace SoftwareProject
 
             if (dtLogin.Rows[0][0].ToString() == "1")
             {
-                MessageBox.Show("Login Successful!", "Login Successful!");
+                MessageBox.Show("Login Successful!!", "Login Successful!");
                 this.Hide();
                 Menu page = new Menu();
                 page.ShowDialog();
